@@ -1,0 +1,16 @@
+D:\GoodLine\LessonProjects\Lesson4\Lesson4\bin\Debug\net5.0\Lesson4.exe
+D:\GoodLine\LessonProjects\Lesson4\Lesson4\bin\Debug\net5.0\Lesson4.deps.json
+D:\GoodLine\LessonProjects\Lesson4\Lesson4\bin\Debug\net5.0\Lesson4.runtimeconfig.json
+D:\GoodLine\LessonProjects\Lesson4\Lesson4\bin\Debug\net5.0\Lesson4.runtimeconfig.dev.json
+D:\GoodLine\LessonProjects\Lesson4\Lesson4\bin\Debug\net5.0\Lesson4.dll
+D:\GoodLine\LessonProjects\Lesson4\Lesson4\bin\Debug\net5.0\ref\Lesson4.dll
+D:\GoodLine\LessonProjects\Lesson4\Lesson4\bin\Debug\net5.0\Lesson4.pdb
+D:\GoodLine\LessonProjects\Lesson4\Lesson4\obj\Debug\net5.0\Lesson4.csprojAssemblyReference.cache
+D:\GoodLine\LessonProjects\Lesson4\Lesson4\obj\Debug\net5.0\Lesson4.GeneratedMSBuildEditorConfig.editorconfig
+D:\GoodLine\LessonProjects\Lesson4\Lesson4\obj\Debug\net5.0\Lesson4.AssemblyInfoInputs.cache
+D:\GoodLine\LessonProjects\Lesson4\Lesson4\obj\Debug\net5.0\Lesson4.AssemblyInfo.cs
+D:\GoodLine\LessonProjects\Lesson4\Lesson4\obj\Debug\net5.0\Lesson4.csproj.CoreCompileInputs.cache
+D:\GoodLine\LessonProjects\Lesson4\Lesson4\obj\Debug\net5.0\Lesson4.dll
+D:\GoodLine\LessonProjects\Lesson4\Lesson4\obj\Debug\net5.0\ref\Lesson4.dll
+D:\GoodLine\LessonProjects\Lesson4\Lesson4\obj\Debug\net5.0\Lesson4.pdb
+D:\GoodLine\LessonProjects\Lesson4\Lesson4\obj\Debug\net5.0\Lesson4.genruntimeconfig.cache
