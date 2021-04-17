@@ -1,0 +1,12 @@
+D:\GoodLine\LessonProjects\Lesson6\Lesson6Library\bin\Debug\net5.0\Lesson6Library.deps.json
+D:\GoodLine\LessonProjects\Lesson6\Lesson6Library\bin\Debug\net5.0\Lesson6Library.dll
+D:\GoodLine\LessonProjects\Lesson6\Lesson6Library\bin\Debug\net5.0\ref\Lesson6Library.dll
+D:\GoodLine\LessonProjects\Lesson6\Lesson6Library\bin\Debug\net5.0\Lesson6Library.pdb
+D:\GoodLine\LessonProjects\Lesson6\Lesson6Library\obj\Debug\net5.0\Lesson6Library.csprojAssemblyReference.cache
+D:\GoodLine\LessonProjects\Lesson6\Lesson6Library\obj\Debug\net5.0\Lesson6Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\GoodLine\LessonProjects\Lesson6\Lesson6Library\obj\Debug\net5.0\Lesson6Library.AssemblyInfoInputs.cache
+D:\GoodLine\LessonProjects\Lesson6\Lesson6Library\obj\Debug\net5.0\Lesson6Library.AssemblyInfo.cs
+D:\GoodLine\LessonProjects\Lesson6\Lesson6Library\obj\Debug\net5.0\Lesson6Library.csproj.CoreCompileInputs.cache
+D:\GoodLine\LessonProjects\Lesson6\Lesson6Library\obj\Debug\net5.0\Lesson6Library.dll
+D:\GoodLine\LessonProjects\Lesson6\Lesson6Library\obj\Debug\net5.0\ref\Lesson6Library.dll
+D:\GoodLine\LessonProjects\Lesson6\Lesson6Library\obj\Debug\net5.0\Lesson6Library.pdb

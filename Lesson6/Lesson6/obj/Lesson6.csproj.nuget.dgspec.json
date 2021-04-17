@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GoodLine\\LessonProjects\\Lesson6\\Lesson6\\Lesson6.csproj": {}
+  },
+  "projects": {
+    "D:\\GoodLine\\LessonProjects\\Lesson6\\Lesson6Library\\Lesson6Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GoodLine\\LessonProjects\\Lesson6\\Lesson6Library\\Lesson6Library.csproj",
+        "projectName": "Lesson6Library",
+        "projectPath": "D:\\GoodLine\\LessonProjects\\Lesson6\\Lesson6Library\\Lesson6Library.csproj",
+        "packagesPath": "C:\\Users\\konva\\.nuget\\packages\\",
+        "outputPath": "D:\\GoodLine\\LessonProjects\\Lesson6\\Lesson6Library\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\konva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GoodLine\\LessonProjects\\Lesson6\\Lesson6\\Lesson6.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GoodLine\\LessonProjects\\Lesson6\\Lesson6\\Lesson6.csproj",
+        "projectName": "Lesson6",
+        "projectPath": "D:\\GoodLine\\LessonProjects\\Lesson6\\Lesson6\\Lesson6.csproj",
+        "packagesPath": "C:\\Users\\konva\\.nuget\\packages\\",
+        "outputPath": "D:\\GoodLine\\LessonProjects\\Lesson6\\Lesson6\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\konva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\GoodLine\\LessonProjects\\Lesson6\\Lesson6Library\\Lesson6Library.csproj": {
+                "projectPath": "D:\\GoodLine\\LessonProjects\\Lesson6\\Lesson6Library\\Lesson6Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
