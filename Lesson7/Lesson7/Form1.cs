@@ -12,11 +12,15 @@ namespace Lesson7
 {
     public partial class Form1 : Form
     {
+        public UserPresenter userPresenter;
         public int n = 0;
         public Form1()
         {
             InitializeComponent();
-            User.users.Add(new User("Admin", 25));
+            UserModel userModel = new UserModel();
+            // TeamModel teamModel = new ...
+            userPresenter = new UserPresenter(this, userModel);
+            //teamPresenter = new TeamPresenter(this, teamModel, userModel);
             ListBoxUsersEditUpdate();
         }
 
@@ -51,7 +55,7 @@ namespace Lesson7
         private void buttonUsersUpdate_Click(object sender, EventArgs e)
         {
             listBoxUsers.Items.Clear();
-            foreach (var user in User.users)
+            foreach (var user in userPresenter.UserGetList())
                 listBoxUsers.Items.Add(user);
         }
 
@@ -69,13 +73,13 @@ namespace Lesson7
                 return;
             }
             string name = textBoxUserNameAdd.Text.Trim();
-            User.users.Add(new User(name, age));
+            userPresenter.UserAdd(name, age);
             ListBoxUsersEditUpdate();
         }
         private void ListBoxUsersEditUpdate()
         {
             listBoxUsersEdit.Items.Clear();
-            foreach (var user in User.users)
+            foreach (var user in userPresenter.UserGetList())
                 listBoxUsersEdit.Items.Add(user);
         }
 
@@ -86,7 +90,7 @@ namespace Lesson7
                 MessageBox.Show("Выберите пользователя для удаления!", "Ошибка выбора!");
                 return;
             }
-            User.users.Remove((User)listBoxUsersEdit.SelectedItem);
+            //User.users.Remove((User)listBoxUsersEdit.SelectedItem);
             ListBoxUsersEditUpdate();
         }
 
@@ -126,6 +130,7 @@ namespace Lesson7
             string name = textBoxUserNameEdit.Text.Trim();
             user.Age = age;
             user.Name = name;
+            userPresenter.UserEdit(listBoxUsersEdit.SelectedIndex, name, age);
             ListBoxUsersEditUpdate();
         }
     }
