@@ -57,5 +57,31 @@ namespace Lesson7
                 return;
             }
         }
+
+        public void UserAdd2(TextBox textBoxUserAgeAdd, TextBox textBoxUserNameAdd)
+        {
+            int age = 0;
+            if (textBoxUserAgeAdd.Text.Trim() == "" || textBoxUserNameAdd.Text.Trim() == "")
+            {
+                MessageBox.Show("Не все поля заполнены!", "Ошибка!");
+                return;
+            }
+            if (!int.TryParse(textBoxUserAgeAdd.Text, out age))
+            {
+                MessageBox.Show("Не получилось прочесть возраст!", "Ошибка!");
+                return;
+            }
+            string name = textBoxUserNameAdd.Text.Trim();
+            try
+            {
+                model.UserAdd(name, age);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Ошибка!");
+                return;
+            }
+            View.ListBoxUsersEditUpdate();
+        }
     }
 }

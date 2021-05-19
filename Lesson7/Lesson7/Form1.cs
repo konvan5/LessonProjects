@@ -59,7 +59,7 @@ namespace Lesson7
                 listBoxUsers.Items.Add(user);
         }
 
-        private void buttonUserAdd_Click(object sender, EventArgs e)
+        private void buttonUserAdd_Click(object sender, EventArgs e) // ЗАНЯТИЕ 8: БЫЛО
         {
             int age = 0;
             if (textBoxUserAgeAdd.Text.Trim() == "" || textBoxUserNameAdd.Text.Trim() == "")
@@ -67,7 +67,7 @@ namespace Lesson7
                 MessageBox.Show("Не все поля заполнены!", "Ошибка!");
                 return;
             }
-            if(!int.TryParse(textBoxUserAgeAdd.Text, out age))
+            if (!int.TryParse(textBoxUserAgeAdd.Text, out age))
             {
                 MessageBox.Show("Не получилось прочесть возраст!", "Ошибка!");
                 return;
@@ -76,7 +76,13 @@ namespace Lesson7
             userPresenter.UserAdd(name, age);
             ListBoxUsersEditUpdate();
         }
-        private void ListBoxUsersEditUpdate()
+
+        private void buttonUserAdd_Click2(object sender, EventArgs e) // ЗАНЯТИЕ 8: СТАЛО
+        {
+            userPresenter.UserAdd2(textBoxUserAgeAdd, textBoxUserNameAdd);
+        }
+
+        public void ListBoxUsersEditUpdate()
         {
             listBoxUsersEdit.Items.Clear();
             foreach (var user in userPresenter.UserGetList())

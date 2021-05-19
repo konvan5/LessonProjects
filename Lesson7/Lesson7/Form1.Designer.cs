@@ -247,7 +247,7 @@ namespace Lesson7
             this.buttonUserAdd.TabIndex = 5;
             this.buttonUserAdd.Text = "Добавить";
             this.buttonUserAdd.UseVisualStyleBackColor = true;
-            this.buttonUserAdd.Click += new System.EventHandler(this.buttonUserAdd_Click);
+            this.buttonUserAdd.Click += new System.EventHandler(this.buttonUserAdd_Click2);
             // 
             // labelUsersEdit
             // 
